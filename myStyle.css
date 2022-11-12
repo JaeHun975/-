@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'ChosunSm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunSg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunSg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    background-color: rgb(241, 241, 241);
+    font-family: Chosunilbo_myungjo;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    color: black;
+    font-family: Chosunilbo_myungjo;
+}
+
+.row{
+    width: 1800px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.h0{height: 10px;}
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+.h400{height: 400px;}
+.h500{height: 500px;}
+.h600{height: 600px;}
+.h700{height: 700px;}
+.h800{height: 800px;}
+.h900{height: 900px;}
+.h1000{height: 1000px;}
+.h1100{height: 1100px;}
+.h1200{height: 1200px;}
+.h2400{height: 2400px;}
+
+.col-1{
+    width: 160px;
+    margin: 0 10px;
+    background-color: rgb(200, 200, 200);}
+
+.col-2{
+    width: 340px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-3{
+    width: 520px;
+    margin: 0 10px;
+    background-color: rgb(200, 200, 200);}
+
+.col-4{
+    width: 700px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-5{
+    width: 880px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-6{
+    width: 1060px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-7{
+    width: 1240px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-8{
+    width: 1420px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-9{
+    width: 1600px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.col-10{
+    width: 1780px;
+    margin: 0 10px; background-color: rgb(200, 200, 200);}
+
+.boxa{
+    background-color: black;
+    width: 1780px;
+    height: 2400px;
+}
+
+.line{
+    background-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h1{
+    text-align: center;
+    line-height: 300px;
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-size: 10em;
+    font-family: ChosunKg;
+    font-weight: 500;
+}
+
+#p1{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-family: ChosunKg;
+    font-size: 5em;
+}
+
+#p2{
+    font-size: 3em;
+    line-height: 2.5rem;
+    text-align: left;
+    padding: 20px;
+    font-weight: 1000;
+    text-align: left;
+}
+
+#p3{
+    font-size: 2.5em;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+#p4{
+    font-size: 6em;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+    font-family: ChosunKg;
+    position: absolute;
+    top: 3100px;
+    right: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 900px;
+}
+
+.img1{
+    background-image: url(./img_source/FullHD/2.png);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200);
+}
+
+.img2{
+    background-image: url(./img_source/trash/군인1.jfif);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200);
+}
+
+.img3{
+    background-image: url(./img_source/trash/군인2.jfif);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200);
+}
+
+.img4{
+    background-image: url(./img_source/trash/군인3.jfif);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200);
+}
+
+.img5{
+    background-image: url(./img_source/FullHD/3.png);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200)
+}
+
+.img6{
+    background-image: url(./img_source/FullHD/4.png);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200)
+}
+.nuclear1{
+    background-image: url(./img_source/FullHD/5.png);
+    background-size: cover;
+    border: solid 10px rgb(200, 200, 200);
+}
+
+#nuclearbg{
+    width: 1780px;
+    height: 980px;
+    transition-duration: 1s;
+}
+
+#nuclearbg:hover{
+    opacity: 0;
+}
+
+.worldmap{
+    background-image: url(./img_source/FullHD/1.png);
+    background-size: cover;
+}
